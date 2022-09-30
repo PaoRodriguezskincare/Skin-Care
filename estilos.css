@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+body{
+    background: linear-gradient(#20945ecb, #1b4677);
+    background-attachment: fixed;  
+}
+div{ 
+    width: 80%;
+    display: block;
+    max-width: 30em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 2em;
+    font-family: monospace;
+    font-style: none;
+    font-weight: 600;
+}
+#Palabra{
+    font-size: 3em;
+    font-style: oblique;
+    font-weight: 300;
+    margin: 10px;
+    margin-bottom: 2px;
+}
+#Significado{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.5em;
+    margin-top: 2px;    
+}
+
+#Siguiente{
+    display:inline-block;
+    padding:0.46em 1.6em;
+    border:0.1em solid #000000;
+    margin:0 0.2em 0.2em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#000000;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    background:#3f8c7d;
+    text-align:center;
+    transition: all 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#Siguiente:active{
+    text-shadow: 0 0 2em rgba(255,255,255,1);
+    color:#FFFFFF;
+    border-color:#FFFFFF;
+}
+    
+#Restantes{
+    text-align: start;
+}
+#Contador{
+    font-family: 'Open Sans', sans-serif;   
+    text-align: end;
+}
