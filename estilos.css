@@ -3,9 +3,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
 
+
 body{
-    background: linear-gradient(#20945ecb, #1b4677);
+    background: rgb(250, 45, 79);
     background-attachment: fixed;  
+}
+.caja .parrafo{
+    font-family: cursive;
+    border: 10px;
+    font-size: 50px;
+}
+.cajas {
+    font-family: none;
 }
 /*div{ 
     width: 80%;
